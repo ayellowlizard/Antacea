@@ -28,7 +28,7 @@ const drawingLayer = new VectorLayer({source: drawnShapes})
 const satelliteLayer = new ImageLayer({
   source: new Static({
     attributions: "if you see bugs report them or something idk",
-    url: 'https://i.postimg.cc/MKvN3DcY/antacea-Map.png',
+    url: './assets/satelliteMap.png',
     projection: antaceaProjection,
     imageExtent: extent,
   }),
